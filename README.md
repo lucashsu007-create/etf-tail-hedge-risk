@@ -22,7 +22,7 @@ Pan & Zeng (2019/2020) — ETF Arbitrage Under Liquidity Mismatch
 Alexander & Barbosa (2008) — Hedging and Cross-Hedging ETFs
 Ben-David, Franzoni & Moussawi (2018) — Do ETFs Increase Volatility?
 Extreme Value Theory / Financial Risk
-Nolde & Zhou (2021) — Extreme Value Analysis for Financial Risk Management ⭐ (Most important for Chen Zhou)
+Nolde & Zhou (2021) — Extreme Value Analysis for Financial Risk Management 
 McNeil & Frey (2000) — Estimation of Tail-Related Risk Measures for Heteroscedastic Financial Time Series
 Poon, Rockinger & Tawn (2004) — Extreme Value Dependence in Financial Markets
 ETF + Tail Risk (Gap Analysis)

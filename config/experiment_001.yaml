@@ -1,0 +1,23 @@
+name: taq_cross_etf_baseline
+objective: liquidity_conditioned_extreme_hedge_error
+
+pairs:
+  - [SPY, IVV]
+  - [SPY, VOO]
+  - [IVV, VOO]
+  - [QQQ, QQQM]
+
+models:
+  hedge_ratio:
+    method: rolling_beta
+    window_bars: 78
+
+risk:
+  historical_var_alpha: 0.05
+  historical_es_alpha: 0.05
+  evt_threshold_quantile: 0.95
+
+notes:
+  - use quote midpoint returns once TAQ is available
+  - use public or dummy data only for pipeline testing before WRDS approval
+  - first TAQ pull should be one day and three tickers only
